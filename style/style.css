@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+@font-face{
+    font-family: 'PS2';
+    src: url('btseps2.ttf') format('truetype');
+    font-weight: normal;
+}
+
+:root{
+    --font-ps2: 'btseps2.ttf', cursive; 
+}
+
+header > h1{
+    font-family: 'PS2', 'Times New Roman', serif;
+}
